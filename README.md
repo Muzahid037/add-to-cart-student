@@ -1,17 +1,6 @@
 # My Live Server Link: https://student-scholarship-management.netlify.app/
 # Site Overview:
-
- Markup : * Bullet list
-              * Nested bullet
-                  * Sub-nested bullet etc
-          * Bullet list item 2
-
--OR-
-
- Markup : - Bullet list
-              - Nested bullet
-                  - Sub-nested bullet etc
-          - Bullet list item 2 
+* abc
 
 
 
