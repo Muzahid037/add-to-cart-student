@@ -1,0 +1,21 @@
+.header{
+    text-align: center;
+   margin-top: 0;
+}
+.highlight{
+    color: rgb(172, 65, 65);
+}
+.header p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-style: italic;
+}
+
+.header h1
+    {
+margin-bottom: 0;
+    }
+.header h3
+    {
+margin-top: 0;
+    }

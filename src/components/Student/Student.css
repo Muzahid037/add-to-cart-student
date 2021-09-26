@@ -1,0 +1,55 @@
+.student{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:lightseagreen;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border:2px solid lightslategray;
+    border-radius: 10px;
+}
+.student h2{
+    margin-bottom: 0;
+} 
+.student p{
+    margin-top: 0;
+    margin-bottom: 0;
+} 
+.student-pic{
+    width: 180px;
+    height: 150px;
+}
+
+.add-btn{
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:rgb(179, 136, 29);
+    opacity: 0.9;
+    color: white;
+    border:1px solid rgb(131, 77, 23);
+    border-radius: 5px;
+}
+
+.rating-section img{
+display: inline;
+}
+.rating-section p{
+display: inline;
+}
+
+
+
+
+.student:hover{
+    background-color:rgb(20, 128, 120);
+}
+
+.add-btn:hover{
+    opacity: 1;
+}
