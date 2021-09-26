@@ -1,6 +1,8 @@
 # My Live Server Link: https://student-scholarship-management.netlify.app/
 # Site Overview:
-* abc
+* Store Student Information.
+* Constantly tracks on which student is added for scholarship.
+* Gives the total student number whose are added.
 
 
 
