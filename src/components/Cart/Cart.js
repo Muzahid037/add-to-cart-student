@@ -11,7 +11,7 @@ const Cart = (props) => {
     return (
         <div className="cart">
             <h2>Student Added: {cart.length}</h2>
-            <h3>Total Schol. Amount: {sum}</h3>
+            <h4>Total Schol. Amount: ${sum}</h4>
             {
                 cart.map(student=> <p key={student.id}>{student.name}</p> )
             }

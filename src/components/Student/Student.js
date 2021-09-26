@@ -1,14 +1,13 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUserPlus } from '@fortawesome/free-solid-svg-icons'
-import Rating from '../Rating/Rating';
 
 
 import './Student.css'
 const Student = (props) => {
     //console.log(props.student);
     const addIcon = <FontAwesomeIcon icon={faUserPlus} />
-    const { name, img, id, _class, ScholarshipAmount, attendanceMarksOutOf5, weight } = props.student;
+    const { name, img, id, _class, ScholarshipAmount, weight } = props.student;
 
     return (
         <div className="student">
@@ -19,8 +18,6 @@ const Student = (props) => {
             <p>Weight: {weight}</p>
             <p>Scholarship Amount: ${ScholarshipAmount}</p>
 
-            <div className="rating-section">
-            </div>
 
             <button
                 onClick={() => props.handleAddStudentToCart(props.student)}
